@@ -1,0 +1,13 @@
+name: Core Workflow
+
+on:
+  push:
+    paths:
+      - "core/**"
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Description
+        run: echo "Core action"

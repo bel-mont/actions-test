@@ -1,0 +1,13 @@
+name: Frontend Workflow
+
+on:
+  push:
+    paths:
+      - "frontend/**"
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Description
+        run: echo "Frontend action"

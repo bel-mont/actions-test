@@ -1,0 +1,13 @@
+name: Backend Workflow
+
+on:
+  push:
+    paths:
+      - "backend/**"
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Description
+        run: echo "Backend action"
